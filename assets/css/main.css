@@ -1,0 +1,44 @@
+/*  */
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+  display: none;
+}
+
+#title {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  transform: rotate(270deg);
+  font-family: "VT323", sans-serif;
+  font-size: var(--size-2xl);
+  color: var(--clr-neutral);
+  font-weight: 500;
+}
+
+.btn-1 {
+  text-decoration: none;
+  font-family: "chakra petch", sans-serif;
+  font-size: var(--size-xs);
+  color: var(--clr-neutral);
+  border: 1px solid var(--clr-neutral);
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 350px) {
+  #title {
+    opacity: 0;
+  }
+}
+
+.page-content {
+  padding: calc(var(--pad) * 2 + 1px) calc(var(--pad) * 2);
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
