@@ -41,4 +41,42 @@
   overflow-x: hidden;
   gap: 2rem;
   margin-bottom: 2rem;
+  font-size: var(--size-xs);
+}
+
+span {
+  font-size: var(--size-xxs);
+  color: var(--clr-neutral);
+  margin-top: -1rem;
+}
+
+.line {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.069);
+  display: block;
+  padding-top: 2rem;
+}
+
+/* -----MEDIUM MQ----- */
+
+@media (min-width: 768px) {
+  .page-content {
+    font-size: var(--size-sm);
+    gap: 3rem;
+  }
+
+  span {
+    font-size: var(--size-xs);
+  }
+
+  h2 {
+    font-size: var(--size-2xl);
+  }
+}
+
+/* -----LARGE MQ----- */
+@media (min-width: 1024px) {
+  #title {
+    bottom: 6%;
+    right: 3%;
+  }
 }

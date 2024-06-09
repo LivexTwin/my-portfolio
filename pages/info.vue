@@ -3,10 +3,11 @@
     <h1 id="title">Info</h1>
 
     <p>
-      I'm currently in the very early stages of my journey into becoming a
-      full-stack web developer. Having chosen a self-taught path that began in
-      summer 2023, I carefully picked the best resources that would help me
-      write clean, concise code.
+      I'm currently in the early stages of my journey into becoming a full-stack
+      web developer. My dream is to launch my career as a frontend developer
+      with expertise in the fashion and music industry. Having chosen a
+      self-taught path that began in summer 2023, I carefully picked the best
+      resources that would help me write clean, concise code.
     </p>
 
     <span>Below are a handful of technologies I have worked with:</span>
@@ -41,6 +42,7 @@
         <p>VS Code</p>
       </div>
     </div>
+
     <div class="point">
       <h2>Frameworks</h2>
       <icon size="1.5em" color="black" name="material-symbols:code" />
@@ -66,15 +68,13 @@
   </div>
 </template>
 
-<script lang="ts" setup></script>
-
 <style scoped>
 svg.icon {
   color: var(--clr-primary200);
 }
-.info {
+/* .info {
   font-size: var(--size-xs);
-}
+} */
 
 h2 {
   font-family: "chakra patch", sans-serif;
@@ -86,12 +86,6 @@ h2 {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-}
-
-span {
-  font-size: var(--size-xxs);
-  color: var(--clr-neutral);
-  margin-top: -1rem;
 }
 
 .icons {

@@ -95,4 +95,5 @@ a:hover,
 a::before,
 a::after {
   text-decoration: none;
+  color: inherit;
 }

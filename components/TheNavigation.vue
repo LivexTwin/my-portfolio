@@ -175,4 +175,12 @@ svg:hover {
 svg.icon .router-link-active path {
   fill: var(--clr-primary200);
 }
+
+/* -----LARGE MQ----- */
+
+@media (min-width: 1024px) {
+  .nav-links {
+    justify-content: end;
+  }
+}
 </style>

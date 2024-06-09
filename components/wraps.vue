@@ -26,6 +26,7 @@
   bottom: 0;
   left: 0;
   overflow: hidden;
+  pointer-events: none;
   width: 100%;
   z-index: -1;
 }
@@ -38,7 +39,7 @@
   right: var(--pad);
   top: var(--pad);
   bottom: var(--pad);
-
+  pointer-events: none;
   /* margin: 1.3rem; */
   z-index: 1;
 }
@@ -52,6 +53,7 @@
   right: var(--pad);
   top: var(--pad);
   bottom: var(--pad);
+
   pointer-events: none;
 }
 

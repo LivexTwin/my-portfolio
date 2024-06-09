@@ -1,5 +1,5 @@
 <template>
-  <h1>Hi! I'm <span class="name">Anthony</span></h1>
+  <h1>Hi! I'm <span class="name">Anthony :&#41</span></h1>
 
   <div class="home">
     <p>
@@ -39,6 +39,8 @@ h1 {
 
 .name {
   letter-spacing: 0.1em;
+  font-size: inherit;
+  color: var(--clr-dark);
 }
 
 .pop {
@@ -56,8 +58,8 @@ h1 {
 
 .btn-1 {
   position: absolute;
-  bottom: 5%;
-  right: 10%;
+  bottom: 30px;
+  right: 30px;
 }
 
 .btn:hover,
@@ -76,9 +78,27 @@ img {
   margin: 0 auto;
 }
 
-.line {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.069);
-  display: block;
-  padding-top: 2rem;
+/* -----MEDIUM MQ----- */
+
+@media (min-width: 768px) {
+  .home {
+    font-size: var(--size-xl);
+    margin-left: 3rem;
+    max-width: 400px;
+  }
+
+  .pop {
+    font-size: var(--size-xl);
+  }
+
+  h1 {
+    font-size: var(--size-4xl);
+  }
+
+  .btn-1 {
+    font-size: var(--size-sm);
+    bottom: 50px;
+    right: 50px;
+  }
 }
 </style>

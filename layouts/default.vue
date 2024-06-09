@@ -3,6 +3,9 @@
     <TheNavigation />
   </header>
 
+  <aside>
+    <TheSocial />
+  </aside>
   <wraps />
   <main>
     <div class="container">
@@ -11,6 +14,9 @@
       </section>
     </div>
   </main>
+  <footer>
+    <TheFooter />
+  </footer>
 </template>
 
 <style scoped>
@@ -18,5 +24,12 @@
   max-width: 350px;
   height: 90dvh;
   overflow: auto;
+}
+
+/* md */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
 }
 </style>
