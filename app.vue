@@ -1,9 +1,22 @@
 <template>
-  <div>
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
-  </div>
+  <header>
+    <TheNavigation />
+  </header>
+
+  <aside>
+    <TheSocial />
+  </aside>
+  <wraps />
+  <main>
+    <div class="container">
+      <section>
+        <NuxtPage />
+      </section>
+    </div>
+  </main>
+  <footer>
+    <TheFooter />
+  </footer>
 </template>
 
 <style>
@@ -16,5 +29,20 @@
 .page-enter-from,
 .page-leave-to {
   opacity: 0;
+}
+</style>
+
+<style scoped>
+.container {
+  max-width: 350px;
+  height: 90dvh;
+  overflow: auto;
+}
+
+/* md */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
 }
 </style>
