@@ -17,23 +17,21 @@
 .bg {
   background-image: url(../public/images/sprite.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 30%;
-  filter: grayscale(98%);
+  /* background-size: contain; */
+  opacity: 40%;
+  filter: grayscale(96%);
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  overflow: hidden;
   pointer-events: none;
   width: 100%;
   z-index: -1;
 }
 
 .inner-bg {
-  background: rgb(255, 255, 255);
-  overflow: hidden;
+  background: rgba(255, 255, 255);
   position: absolute;
   left: var(--pad);
   right: var(--pad);

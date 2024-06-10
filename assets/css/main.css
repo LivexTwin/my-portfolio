@@ -1,8 +1,7 @@
 /*  */
-
 ::-webkit-scrollbar {
   width: 0; /* Remove scrollbar space */
-  background: transparent; /* Optional: just make scrollbar invisible */
+  background: transparent; /*  Optional: just make scrollbar invisible */
   display: none;
 }
 
@@ -38,7 +37,7 @@
   margin-left: 2rem;
   display: flex;
   flex-direction: column;
-  overflow-x: hidden;
+  overflow: scroll;
   gap: 2rem;
   margin-bottom: 2rem;
   font-size: var(--size-xs);

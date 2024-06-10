@@ -56,11 +56,10 @@ html {
 
 body {
   /* font of your choice */
-  height: 100dvh;
-  overflow: hidden;
+
   width: 100%;
   font-family: "oxygen mono", sans-serif;
-
+  overflow: hidden;
   -webkit-font-smoothing: antialiased;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
 }
