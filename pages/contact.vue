@@ -3,7 +3,7 @@
     <h1 id="title">contact</h1>
     <h2>Next steps for me?</h2>
     <ul>
-      <li>Learn how to migrate a database</li>
+      <li>Learn to migrate a database</li>
       <li>Master headless "CMS"</li>
 
       <li>Optimize "SEO"</li>
