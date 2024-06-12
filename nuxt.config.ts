@@ -9,6 +9,7 @@ export default defineNuxtConfig({
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
       title: " A Molina - Portfolio",
+
       meta: [{ name: "Portfolio", content: "Anthony Molina" }],
       link: [
         {

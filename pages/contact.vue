@@ -1,8 +1,14 @@
 <template>
   <div class="page-content contact">
     <h1 id="title">contact</h1>
-    <h2>Let's connect.</h2>
+    <h2>Next steps for me?</h2>
+    <ul>
+      <li>Learn how to migrate a database</li>
+      <li>Master headless "CMS"</li>
 
+      <li>Optimize "SEO"</li>
+      <li>Never stop learning!</li>
+    </ul>
     <p>
       <strong>Available</strong> to start work immediately. Feel reach to reach
       out to me using the following methods.
@@ -62,6 +68,15 @@ h3 {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+}
+
+ul {
+  margin-top: -1rem;
+}
+
+ul li:before {
+  content: "★";
+  margin: 0 1em;
 }
 
 /* -----MEDIUM MQ----- */

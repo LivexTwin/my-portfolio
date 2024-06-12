@@ -5,6 +5,8 @@
 <style scoped>
 #footer {
   position: absolute;
+  display: flex;
+  gap: 2rem;
   bottom: 0;
   left: 5%;
   background: black;

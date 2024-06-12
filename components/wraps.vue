@@ -1,6 +1,12 @@
 <template>
   <div class="bg">
     <div class="inner-bg"></div>
+    <div id="shopify-logo">
+      <img
+        src="/public/images/ShopifyExpert_Secondary_Wordmark.svg"
+        alt="shopify expert logo"
+      />
+    </div>
   </div>
   <div class="frame" id="Frame">
     <div class="frame_line frame_line-left"></div>
@@ -40,6 +46,13 @@
   pointer-events: none;
   /* margin: 1.3rem; */
   z-index: 1;
+}
+
+#shopify-logo {
+  position: absolute;
+  bottom: 7%;
+  left: -50px;
+  transform: rotate(270deg);
 }
 
 /* frame styles */
