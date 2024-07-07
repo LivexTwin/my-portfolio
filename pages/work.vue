@@ -1,5 +1,5 @@
 <template>
-  <div class="page-content work">
+  <section class="page-content work">
     <h1 id="title">Work</h1>
     <p>
       To master the basics of html, css, and javascript, I used a fun resource
@@ -12,6 +12,40 @@
     <span>Here are some examples</span>
 
     <div class="work-grid">
+      <div class="work-item">
+        <div class="project">
+          <img src="/public/images/4.png" alt="project thumbnail" />
+          <div class="btn-container">
+            <button class="btn-1">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://nuxt-mock-shop.netlify.app/"
+                >view demo</a
+              >
+            </button>
+            <button class="btn-1">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/LivexTwin/nuxt-mock-shop"
+                >GitHub</a
+              >
+            </button>
+          </div>
+        </div>
+
+        <p>
+          Highlighting my work with this minimal mock shopify store. Built with
+          "Nuxt 3", and "Graphql" for querying products. By far the most
+          challenging project I've tried to implement, I learned how shopify's
+          storefront API works, how I can use it to fetch real, test products.
+          Then how to start a development store in order to generate the
+          necessary access keys. Includes a pay button that redirects users to
+          shopify's external checkout.
+        </p>
+      </div>
+
       <div class="work-item">
         <div class="project">
           <img src="/public/images/1.png" alt="project thumbnail" />
@@ -116,7 +150,7 @@
         >
       </span>
     </div>
-  </div>
+  </section>
 </template>
 
 <style scoped>

@@ -1,5 +1,5 @@
 <template>
-  <div class="page-content info">
+  <section class="page-content info">
     <h1 id="title">Info</h1>
 
     <p>
@@ -65,7 +65,7 @@
         <p>Vue JS</p>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <style scoped>

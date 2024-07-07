@@ -9,9 +9,7 @@
   <wraps />
   <main>
     <div class="container">
-      <section>
-        <NuxtPage />
-      </section>
+      <NuxtPage />
     </div>
   </main>
   <footer>

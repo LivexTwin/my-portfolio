@@ -1,10 +1,10 @@
 <template>
   <h1>Hi! I'm <span class="name">Anthony :&#41</span></h1>
 
-  <div class="home">
+  <section class="home">
     <p>
       A junior
-      <span class="pop">frontend developer</span> from Atlanta, Ga.
+      <span class="pop">full-stack developer</span> from Atlanta, Ga.
     </p>
     <span class="line"></span>
     <p class="desc">
@@ -15,7 +15,7 @@
     </p>
 
     <NuxtLink class="btn-1" to="/info">More info..</NuxtLink>
-  </div>
+  </section>
 </template>
 
 <style scoped>

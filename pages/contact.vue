@@ -1,11 +1,9 @@
 <template>
-  <div class="page-content contact">
+  <section class="page-content contact">
     <h1 id="title">contact</h1>
     <h2>Next steps for me?</h2>
     <ul>
-      <li>Learn to migrate a database</li>
-      <li>Master headless "CMS"</li>
-
+      <li>Master headless storefronts</li>
       <li>Optimize "SEO"</li>
       <li>Never stop learning!</li>
     </ul>
@@ -42,7 +40,7 @@
         >
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <style scoped>
