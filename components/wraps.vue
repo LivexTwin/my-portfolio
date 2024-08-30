@@ -22,13 +22,6 @@
 </template>
 
 <style scoped>
-.wraps-container {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  overflow: auto;
-}
-
 .bg {
   background-image: url(../public/images/sprite.jpg);
   background-repeat: no-repeat;
