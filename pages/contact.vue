@@ -1,12 +1,7 @@
 <template>
   <section class="page-content contact">
     <h1 id="title">contact</h1>
-    <h2>Next steps for me?</h2>
-    <ul>
-      <li>Master headless storefronts</li>
-      <li>Optimize "SEO"</li>
-      <li>Never stop learning!</li>
-    </ul>
+    <h2>Get in touch</h2>
     <p>
       <strong>Available</strong> to start work immediately. Feel reach to reach
       out to me using the following methods.
