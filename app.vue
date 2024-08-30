@@ -18,6 +18,9 @@
 </template>
 
 <style scoped>
+main {
+  overflow: hidden;
+}
 .container {
   max-width: 350px;
   height: 90dvh;
