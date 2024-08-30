@@ -18,8 +18,8 @@
           target="_blank"
           rel="noopener noreferrer"
           href="mailto:anthonyjbmolina@gmail.com"
-          >anthonyjbmolina@gmail.com</a
-        >
+          >anthony@a-is-lt.com
+        </a>
       </div>
       <div class="contact-items">
         <h3>GitHub</h3>
@@ -36,7 +36,7 @@
           target="_blank"
           rel="noopener noreferrer"
           href="https://x.com/LivexTwin"
-          >@LivexTwin</a
+          >@livestartwin</a
         >
       </div>
     </div>
