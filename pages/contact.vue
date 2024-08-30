@@ -17,7 +17,7 @@
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="mailto:anthonyjbmolina@gmail.com"
+          href="mailto:anthony@a-is-lt.com"
           >anthony@a-is-lt.com
         </a>
       </div>
@@ -35,7 +35,7 @@
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://x.com/LivexTwin"
+          href="https://x.com/LiveStarTwin"
           >@livestartwin</a
         >
       </div>
