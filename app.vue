@@ -20,8 +20,8 @@
 <style scoped>
 .container {
   max-width: 350px;
-  height: 90dvh;
-  overflow: auto;
+  height: 100vh;
+  overflow: scroll;
   /* overflow-y: scroll; */
 }
 

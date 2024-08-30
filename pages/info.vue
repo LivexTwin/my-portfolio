@@ -17,28 +17,28 @@
     </div>
     <div class="info-grid">
       <div class="icons">
-        <Icon size="3em" name="simple-icons:mongodb" />
-        <p>MongoDB</p>
+        <Icon name="simple-icons:graphql" />
+        <p>Graphql</p>
       </div>
       <div class="icons">
-        <Icon size="3em" name="simple-icons:netlify" />
+        <Icon name="simple-icons:netlify" />
         <p>Netlify</p>
       </div>
       <div class="icons">
-        <Icon size="3em" name="simple-icons:npm" />
+        <Icon name="simple-icons:npm" />
         <p>Npm</p>
       </div>
 
       <div class="icons">
-        <Icon size="3em" name="simple-icons:typescript" />
-        <p>Typescript</p>
+        <Icon name="simple-icons:insomnia" />
+        <p>Insomnia</p>
       </div>
       <div class="icons">
-        <Icon size="3em" name="simple-icons:vite" />
+        <Icon name="simple-icons:vite" />
         <p>Vite</p>
       </div>
       <div class="icons">
-        <Icon size="3em" name="simple-icons:visualstudiocode" />
+        <Icon name="simple-icons:visualstudiocode" />
         <p>VS Code</p>
       </div>
     </div>
@@ -49,19 +49,19 @@
     </div>
     <div class="info-grid">
       <div class="icons">
-        <Icon size="3em" fill="red " name="simple-icons:alpinedotjs" />
+        <Icon name="simple-icons:alpinedotjs" />
         <p>Alpine JS</p>
       </div>
       <div class="icons">
-        <Icon size="3em" name="simple-icons:nuxtdotjs" />
+        <Icon name="simple-icons:nuxtdotjs" />
         <p>Nuxt</p>
       </div>
       <div class="icons">
-        <Icon size="3em" name="simple-icons:tailwindcss" />
+        <Icon name="simple-icons:tailwindcss" />
         <p>Tailwind CSS</p>
       </div>
       <div class="icons">
-        <Icon size="3em" name="simple-icons:vuedotjs" />
+        <Icon name="simple-icons:vuedotjs" />
         <p>Vue JS</p>
       </div>
     </div>
@@ -77,7 +77,7 @@ svg.icon {
 } */
 
 h2 {
-  font-family: "chakra patch", sans-serif;
+  font-family: "chakra petch", sans-serif;
   letter-spacing: 1px;
 }
 
@@ -86,6 +86,7 @@ h2 {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  text-transform: uppercase;
 }
 
 .icons {
@@ -93,6 +94,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   gap: 5px;
+  font-size: var(--size-xl);
 }
 
 .info-grid {
@@ -103,8 +105,7 @@ h2 {
 
   gap: 1.5rem;
 }
-/* .info-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-} */
+.info-grid p {
+  font-size: var(--size-base);
+}
 </style>

@@ -14,6 +14,35 @@
     <div class="work-grid">
       <div class="work-item">
         <div class="project">
+          <img src="/public/images/5.png" alt="project thumbnail" />
+          <div class="description">
+            <p>
+              Highlighting my work with this advanced Shopify development store
+              app built using Nuxt 3, Apollo GraphQL, and Insomnia for API
+              testing. It also utilizes Pinia for state management and the
+              Storefront API. The main challenges included understanding client
+              vs server-side requests and effectively managing a cart.
+            </p>
+            <span>
+              Built with Nuxt 3, Apollo GraphQL, Insomnia, Pinia, and Storefront
+              API</span
+            >
+          </div>
+          <div class="btn-container">
+            <button class="btn-1">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://vlssh0p.com"
+                >view demo</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="work-item">
+        <div class="project">
           <img src="/public/images/4.png" alt="project thumbnail" />
           <div class="btn-container">
             <button class="btn-1">
@@ -34,15 +63,13 @@
             </button>
           </div>
         </div>
-
         <p>
-          Highlighting my work with this minimal mock shopify store. Built with
-          "Nuxt 3", and "Graphql" for querying products. By far the most
-          challenging project I've tried to implement, I learned how shopify's
-          storefront API works, how I can use it to fetch real, test products.
-          Then how to start a development store in order to generate the
-          necessary access keys. Includes a pay button that redirects users to
-          shopify's external checkout.
+          Built with "Nuxt 3", and "Graphql" for querying products. By far the
+          most challenging project I've tried to implement, I learned how
+          shopify's storefront API works, how I can use it to fetch real, test
+          products. Then how to start a development store in order to generate
+          the necessary access keys. Includes a pay button that redirects users
+          to shopify's external checkout.
         </p>
       </div>
 
@@ -68,7 +95,6 @@
             </button>
           </div>
         </div>
-
         <p>
           Case study: I chose to build this mock sneaker app in order to get
           familiar with the functionality of a modern e-commerce website. The
@@ -77,37 +103,7 @@
         </p>
         <span> Built with HTML, CSS, and Javascript</span>
       </div>
-      <div class="work-item">
-        <div class="project">
-          <img src="/public/images/2.png" alt="project thumbnail" />
-          <div class="btn-container">
-            <button class="btn-1">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://intro-section-lt.netlify.app/#"
-                >view demo</a
-              >
-            </button>
-            <button class="btn-1">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/LivexTwin/intro-section-with-dropdown-navigation-main"
-                >GitHub</a
-              >
-            </button>
-          </div>
-        </div>
 
-        <p>
-          Case study: Here is a fully responsive company landing page. Loaded
-          with a dynamic navigation menu that also includes two nested inner
-          dropdown menus for featured and company links. This was great practice
-          for basic html semantics and mastering flexbox and grid layouts.
-        </p>
-        <span> Built with HTML, CSS, and Javascript</span>
-      </div>
       <div class="work-item">
         <div class="project">
           <img src="/public/images/3.png" alt="project thumbnail" />
@@ -130,7 +126,6 @@
             </button>
           </div>
         </div>
-
         <p>
           Case study: Stay updated! This newsletter sign-up page was super
           insightful. I want to build online shops, and a big part of that is

@@ -1,29 +1,37 @@
 <template>
-  <div class="bg">
-    <div class="inner-bg"></div>
-    <div id="shopify-logo">
-      <img
-        src="/public/images/ShopifyExpert_Secondary_Wordmark.svg"
-        alt="shopify expert logo"
-      />
+  <div class="wraps-container">
+    <div class="bg">
+      <div class="inner-bg"></div>
+      <div id="shopify-logo">
+        <img
+          src="/public/images/ShopifyExpert_Secondary_Wordmark.svg"
+          alt="shopify expert logo"
+        />
+      </div>
     </div>
-  </div>
-  <div class="frame" id="Frame">
-    <div class="frame_line frame_line-left"></div>
-    <div class="frame_line frame_line-right"></div>
-    <div class="frame_line frame_line-top"></div>
-    <div class="frame_line frame_line-bottom"></div>
-  </div>
-  <div class="mask" id="Mask">
-    <div class="mask_bottom"></div>
+    <div class="frame" id="Frame">
+      <div class="frame_line frame_line-left"></div>
+      <div class="frame_line frame_line-right"></div>
+      <div class="frame_line frame_line-top"></div>
+      <div class="frame_line frame_line-bottom"></div>
+    </div>
+    <div class="mask" id="Mask">
+      <div class="mask_bottom"></div>
+    </div>
   </div>
 </template>
 
 <style scoped>
+.wraps-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: auto;
+}
+
 .bg {
   background-image: url(../public/images/sprite.jpg);
   background-repeat: no-repeat;
-  /* background-size: contain; */
   opacity: 40%;
   filter: grayscale(96%);
   position: absolute;
@@ -31,6 +39,7 @@
   right: 0;
   bottom: 0;
   left: 0;
+  display: flex;
   pointer-events: none;
   width: 100%;
   z-index: -1;
@@ -43,8 +52,10 @@
   right: var(--pad);
   top: var(--pad);
   bottom: var(--pad);
+  overflow: hidden;
+  display: flex;
+  flex: 1;
   pointer-events: none;
-  /* margin: 1.3rem; */
   z-index: 1;
 }
 
@@ -64,7 +75,6 @@
   right: var(--pad);
   top: var(--pad);
   bottom: var(--pad);
-
   pointer-events: none;
 }
 
@@ -123,7 +133,6 @@
   left: 0;
   width: 100%;
   height: var(--pad);
-
   transition-property: background-color;
   backdrop-filter: blur(1.3px);
   opacity: 0.9;
