@@ -25,8 +25,8 @@
         <p>Netlify</p>
       </div>
       <div class="icons">
-        <Icon name="simple-icons:npm" />
-        <p>Npm</p>
+        <Icon name="simple-icons:nodedotjs" />
+        <p>NodeJs</p>
       </div>
 
       <div class="icons">
@@ -100,10 +100,10 @@ h2 {
 .info-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
+  row-gap: 1rem;
+  column-gap: 2rem;
+  max-width: 300px;
   margin: 0 auto;
-
-  gap: 1.5rem;
 }
 .info-grid p {
   font-size: var(--size-base);

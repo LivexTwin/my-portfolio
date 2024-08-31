@@ -46,7 +46,6 @@
 span {
   font-size: var(--size-xxs);
   color: var(--clr-neutral);
-  margin-top: -1rem;
 }
 
 .line {

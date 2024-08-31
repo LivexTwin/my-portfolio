@@ -1,36 +1,44 @@
 <template>
-  <header>
-    <TheNavigation />
-  </header>
+  <div class="page">
+    <header>
+      <TheNavigation />
+    </header>
 
-  <aside>
-    <TheSocial />
-  </aside>
-  <wraps />
-  <main>
-    <div class="container">
-      <NuxtPage />
-    </div>
-  </main>
-  <footer>
-    <TheFooter />
-  </footer>
+    <aside>
+      <TheSocial />
+    </aside>
+    <wraps />
+    <main>
+      <div class="wrapper">
+        <NuxtPage />
+      </div>
+    </main>
+    <footer>
+      <TheFooter />
+    </footer>
+  </div>
 </template>
 
-<style scoped>
-main {
+<style>
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
   overflow: hidden;
+  position: relative;
 }
-.container {
+
+.wrapper {
   max-width: 350px;
   height: 90dvh;
-  overflow: auto;
+
+  overflow-y: auto;
   /* overflow-y: scroll; */
 }
 
 /* md */
 @media (min-width: 768px) {
-  .container {
+  .wrapper {
     max-width: 768px;
   }
 }

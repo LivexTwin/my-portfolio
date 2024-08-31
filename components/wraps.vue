@@ -25,7 +25,7 @@
 .bg {
   background-image: url(../public/images/sprite.jpg);
   background-repeat: no-repeat;
-  opacity: 40%;
+  opacity: 80%;
   filter: grayscale(96%);
   position: absolute;
   top: 0;
@@ -46,10 +46,8 @@
   top: var(--pad);
   bottom: var(--pad);
   overflow: hidden;
-  display: flex;
   flex: 1;
   pointer-events: none;
-  z-index: 1;
 }
 
 #shopify-logo {
@@ -119,6 +117,9 @@
 .mask_bottom {
   bottom: 0;
 }
+.mask_top {
+  top: 0;
+}
 
 .mask_top,
 .mask_bottom {
@@ -129,5 +130,6 @@
   transition-property: background-color;
   backdrop-filter: blur(1.3px);
   opacity: 0.9;
+  z-index: 2;
 }
 </style>
