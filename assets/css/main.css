@@ -18,7 +18,8 @@
 
 .btn-1 {
   text-decoration: none;
-  font-family: "chakra petch", sans-serif;
+  font-family: "vt323", sans-serif;
+  letter-spacing: 1.5px;
   font-size: var(--size-xs);
   color: var(--clr-neutral);
   border: 1px solid var(--clr-neutral);
