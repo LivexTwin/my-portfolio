@@ -36,11 +36,10 @@
 .page-content {
   padding: calc(var(--pad) * 2 + 1px) calc(var(--pad) * 2);
   margin-left: 2rem;
-  display: flex;
-  flex-direction: column;
+
   overflow: auto;
-  gap: 2rem;
-  margin-bottom: 2rem;
+
+  margin-bottom: 1rem;
   font-size: var(--size-xs);
 }
 

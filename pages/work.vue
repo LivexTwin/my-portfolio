@@ -229,7 +229,7 @@ img {
 
 .btn-container {
   display: flex;
-  gap: 1rem;
+  gap: 0.1rem;
   width: 100%;
 
   justify-content: center;
@@ -238,6 +238,10 @@ img {
 .btn-1 {
   max-width: 80px;
   width: 100%;
+}
+
+.work-summary {
+  margin-bottom: 2rem;
 }
 
 .description {
