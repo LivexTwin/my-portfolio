@@ -20,12 +20,12 @@
 </template>
 
 <style scoped>
-.page {
-  height: 100vh; /* Ensure the page takes the full viewport height */
-  position: relative; /* Keep the relative positioning */
-  display: flex;
-  flex-direction: column;
-}
+/* .page {
+  height: 100vh;
+  overflow: hidden;
+
+  position: relative;
+} */
 
 .wrapper {
   max-width: 350px;
