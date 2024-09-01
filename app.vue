@@ -20,12 +20,12 @@
 </template>
 
 <style scoped>
-.page {
+/* .page {
   height: 100vh;
   overflow: hidden;
 
   position: relative;
-}
+} */
 
 .wrapper {
   max-width: 350px;
