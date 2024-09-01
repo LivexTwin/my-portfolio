@@ -33,8 +33,11 @@
   bottom: 0;
   left: 0;
   display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
   pointer-events: none;
   width: 100%;
+  height: 100%; /* Ensure it stretches to fill the parent */
   z-index: -1;
 }
 
@@ -47,7 +50,7 @@
   bottom: var(--pad);
   overflow: hidden;
   display: flex;
-  flex: 1;
+  flex: none;
   pointer-events: none;
   z-index: 1;
 }

@@ -38,7 +38,10 @@
   margin-left: 2rem;
   display: flex;
   flex-direction: column;
-  overflow: auto;
+  height: 90dvh;
+
+  overflow-y: auto;
+
   gap: 2rem;
   margin-bottom: 1rem;
   font-size: var(--size-xs);

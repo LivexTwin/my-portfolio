@@ -20,19 +20,17 @@
 </template>
 
 <style>
-/* .page {
+.page {
   display: flex;
   flex-direction: column;
   height: 100vh;
   overflow: hidden;
   position: relative;
-} */
+}
 
 .wrapper {
   max-width: 350px;
-  height: 90dvh;
 
-  overflow-y: auto;
   /* overflow-y: scroll; */
 }
 
