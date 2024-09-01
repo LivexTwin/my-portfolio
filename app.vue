@@ -13,18 +13,17 @@
         <NuxtPage />
       </div>
     </main>
-    <footer>
-      <TheFooter />
-    </footer>
   </div>
+  <footer>
+    <TheFooter />
+  </footer>
 </template>
 
-<style>
+<style scoped>
 .page {
-  display: flex;
-  flex-direction: column;
   height: 100vh;
   overflow: hidden;
+
   position: relative;
 }
 
