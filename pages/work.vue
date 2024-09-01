@@ -240,10 +240,6 @@ img {
   width: 100%;
 }
 
-.work-summary {
-  margin-bottom: 2rem;
-}
-
 .description {
   display: flex;
   flex-direction: column;
