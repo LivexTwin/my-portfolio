@@ -46,6 +46,7 @@
   top: var(--pad);
   bottom: var(--pad);
   overflow: hidden;
+  display: flex;
   flex: 1;
   pointer-events: none;
   z-index: 1;

@@ -14,7 +14,7 @@
       <span class="pop">impactful</span> online shops.
     </p>
 
-    <NuxtLink class="btn-1" to="/info"><button>More info..</button></NuxtLink>
+    <NuxtLink class="btn-1" to="/info">More info..</NuxtLink>
   </section>
 </template>
 
