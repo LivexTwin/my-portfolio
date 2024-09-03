@@ -84,14 +84,31 @@ span {
   }
 }
 
-@media only screen and (orientation: landscape) {
+/* @media screen and (orientation: landscape) {
   .home {
-    margin-top: 0; /* or any other value you prefer */
+    margin-top: 10% !important; 
   }
 
   .page-content {
     margin: 0 auto;
     padding-bottom: 5rem;
+  }
+
+  .page-content #title {
+    bottom: 8%;
+  }
+  
+} */
+
+@media only screen and (max-height: 575.98px) and (orientation: landscape) {
+  .home {
+    margin-top: 10% !important;
+  }
+
+  .page-content {
+    margin: 0 auto;
+    padding-bottom: 5rem;
+    max-width: 600px;
   }
 
   .page-content #title {
