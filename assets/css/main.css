@@ -103,19 +103,18 @@ span {
 @media only screen and (max-height: 575.98px) and (orientation: landscape) {
   .home {
     margin-top: 0 !important;
+    max-width: 100%;
+    overflow-y: auto;
   }
 
   .page-content {
     margin: 0 auto;
     padding-bottom: 5rem;
+
     max-width: 600px;
   }
 
   .page-content #title {
     bottom: 8%;
-  }
-
-  .home {
-    height: fit-content;
   }
 }
