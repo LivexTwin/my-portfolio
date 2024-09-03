@@ -11,12 +11,8 @@
       <icon size="2em" class="social-icon" name="simple-icons:x"
     /></a>
 
-    <a
-      href="https://www.frontendmentor.io/profile/LivexTwin"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <icon size="2em" class="social-icon" name="simple-icons:frontendmentor" />
+    <a href="/CV.pdf" target="_blank" rel="noopener noreferrer">
+      <div class="social-icon text-icon">CV</div>
     </a>
   </div>
 </template>
@@ -49,6 +45,12 @@
   background: var(--clr-primary200);
   color: white;
   transition-duration: 500ms;
+}
+
+.text-icon {
+  font-weight: 900;
+  display: flex;
+  align-items: center;
 }
 
 /* -----LARGE MQ----- */
