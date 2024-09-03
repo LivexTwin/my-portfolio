@@ -114,4 +114,8 @@ span {
   .page-content #title {
     bottom: 8%;
   }
+
+  .home {
+    display: flex;
+  }
 }
