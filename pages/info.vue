@@ -3,11 +3,11 @@
     <h1 id="title">Info</h1>
 
     <p>
-      I'm currently in the early stages of my journey into becoming a full-stack
-      web developer. My dream is to launch my career as a frontend developer
-      with expertise in the fashion and music industry. Having chosen a
-      self-taught path that began in summer 2023, I carefully picked the best
-      resources that would help me write clean, concise code.
+      I'm in the early stages of my journey into becoming a full-stack web
+      developer, aiming to launch my career as a frontend developer specializing
+      in the fashion and music industries. Having chosen a self-taught path that
+      began in summer 2023, I carefully picked the best resources that would
+      help me write clean, concise code.
     </p>
 
     <span>Below are a handful of technologies I have worked with:</span>
@@ -65,6 +65,18 @@
         <p>Vue JS</p>
       </div>
     </div>
+    <h3>Who am I?</h3>
+    <p>
+      I am a passionate individual with a "finish what you started" mentality.
+      As a determined problem-solver, I won’t stop until every idea I’ve
+      imagined is perfectly realized. As a developer, I value both the look and
+      functionality of a website. My passion for design extends beyond coding—I
+      use Blender to create eye-catching logos and have designed art covers for
+      several artists. I thrive on creating from scratch, blending technical
+      skill with artistic expression. Whether designing a captivating user
+      interface or visualizing a concept in 3D, my commitment to excellence
+      drives me to perfect every aspect of my work.
+    </p>
   </section>
 </template>
 

@@ -259,6 +259,7 @@ a::after {
   }
   .work-grid {
     gap: 3rem;
+    grid-template-columns: 1fr 1fr;
   }
 
   .work-item {

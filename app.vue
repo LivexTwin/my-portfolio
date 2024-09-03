@@ -36,7 +36,12 @@
 /* md */
 @media (min-width: 768px) {
   .wrapper {
-    max-width: 768px;
+    max-width: 1000px;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
   }
 }
 </style>

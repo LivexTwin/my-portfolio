@@ -64,6 +64,7 @@ span {
   .page-content {
     font-size: var(--size-sm);
     gap: 3rem;
+    width: 100%;
   }
 
   span {
@@ -80,5 +81,20 @@ span {
   #title {
     bottom: 6%;
     right: 3%;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .home {
+    margin-top: 0; /* or any other value you prefer */
+  }
+
+  .page-content {
+    margin: 0 auto;
+    padding-bottom: 5rem;
+  }
+
+  .page-content #title {
+    bottom: 8%;
   }
 }

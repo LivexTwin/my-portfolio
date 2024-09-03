@@ -84,7 +84,7 @@ img {
   .home {
     font-size: var(--size-xl);
     margin-left: 3rem;
-    max-width: 400px;
+    max-width: 800px;
   }
 
   .pop {
