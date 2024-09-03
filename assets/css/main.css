@@ -102,7 +102,7 @@ span {
 
 @media only screen and (max-height: 575.98px) and (orientation: landscape) {
   .home {
-    margin-top: 10% !important;
+    margin-top: 0 !important;
   }
 
   .page-content {
@@ -116,6 +116,6 @@ span {
   }
 
   .home {
-    display: flex;
+    height: fit-content;
   }
 }
