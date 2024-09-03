@@ -7,7 +7,11 @@
     >
       <icon size="2em" class="social-icon" name="simple-icons:github"
     /></a>
-    <a target="_blank" rel="noopener noreferrer" href="https://x.com/LivexTwin">
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      href="https://x.com/livestartwin"
+    >
       <icon size="2em" class="social-icon" name="simple-icons:x"
     /></a>
 
