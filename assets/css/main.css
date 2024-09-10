@@ -41,7 +41,7 @@
   height: 90dvh;
 
   overflow-y: auto;
-
+  scrollbar-width: none;
   gap: 2rem;
   margin-bottom: 1rem;
   font-size: var(--size-xs);
