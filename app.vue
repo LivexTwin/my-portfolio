@@ -30,9 +30,6 @@
 .wrapper {
   max-width: 320px;
   scrollbar-width: none;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
 
   overflow: hidden;
 }
