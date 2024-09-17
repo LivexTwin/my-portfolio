@@ -30,8 +30,13 @@
 .wrapper {
   max-width: 320px;
   scrollbar-width: none;
+  /* margin-bottom: 2rem; */
+  height: 100vh;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
 
-  overflow: hidden;
+  overflow-y: scroll;
 }
 
 /* md */

@@ -46,8 +46,8 @@ header {
   display: flex;
   flex-direction: column;
   scrollbar-width: none;
-  height: 100vh;
-  flex-grow: 1;
+  /* height: 100vh; */
+  margin-top: 2rem;
   overflow-y: auto;
   gap: 2rem;
   font-size: var(--size-xs);
