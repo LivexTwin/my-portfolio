@@ -43,11 +43,13 @@ header {
 .page-content {
   padding: calc(var(--pad) * 2 + 1px) calc(var(--pad) * 2);
   margin-left: 1rem;
+  padding-top: 5rem;
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
+  scrollbar-width: none;
+  height: 100vh;
+  overflow-y: auto;
   gap: 2rem;
-  margin-top: 3rem;
   font-size: var(--size-xs);
 }
 
