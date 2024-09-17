@@ -44,7 +44,7 @@
       </div> -->
       <div class="work-item">
         <div class="project">
-          <img src="/public/images/5.png" alt="project thumbnail" />
+          <NuxtImg src="/images/5.png" alt="project thumbnail" />
           <div class="btn-container">
             <button class="btn-1">
               <a
@@ -73,7 +73,7 @@
 
       <div class="work-item">
         <div class="project">
-          <img src="/public/images/4.png" alt="project thumbnail" />
+          <NuxtImg src="/images/4.png" alt="project thumbnail" />
           <div class="btn-container">
             <button class="btn-1">
               <a
@@ -107,7 +107,7 @@
 
       <div class="work-item">
         <div class="project">
-          <img src="/public/images/1.png" alt="project thumbnail" />
+          <NuxtImg src="/images/1.png" alt="project thumbnail" />
           <div class="btn-container">
             <button class="btn-1">
               <a
@@ -140,7 +140,7 @@
 
       <div class="work-item">
         <div class="project">
-          <img src="/public/images/3.png" alt="project thumbnail" />
+          <NuxtImg src="/images/3.png" alt="project thumbnail" />
           <div class="btn-container">
             <button class="btn-1">
               <a
