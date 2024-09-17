@@ -17,6 +17,7 @@
     </div>
     <div class="mask" id="Mask">
       <div class="mask_bottom"></div>
+      <div class="mask_top"></div>
     </div>
   </div>
 </template>
@@ -121,6 +122,10 @@
 
 .mask_bottom {
   bottom: 0;
+}
+
+.mask_top {
+  top: 0;
 }
 
 .mask_top,

@@ -28,9 +28,11 @@
 } */
 
 .wrapper {
-  max-width: 350px;
-
-  /* overflow-y: scroll; */
+  max-width: 300px;
+  scrollbar-width: none;
+  margin-bottom: 2rem;
+  height: 100vh;
+  overflow-y: scroll;
 }
 
 /* md */

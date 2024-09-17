@@ -25,16 +25,17 @@
   max-width: 250px;
   padding: var(--pad);
   margin-left: 2rem;
-  margin-top: 45%;
+  margin-top: 80%;
 }
 
 h1 {
   font-family: "Vt323", sans-serif;
   font-weight: 500;
   position: absolute;
-  top: 15%;
+  top: 10%;
+  max-width: 100px;
   font-size: 1.8rem;
-  right: 15%;
+  left: 15%;
 }
 
 .name {
