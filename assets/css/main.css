@@ -41,9 +41,8 @@ header {
 }
 
 .page-content {
-  padding: calc(var(--pad) * 2 + 1px) calc(var(--pad) * 2);
+  padding: calc(var(--pad) * 2 + 20px) calc(var(--pad) * 2);
   margin-left: 1rem;
-  padding-top: 5rem;
   display: flex;
   flex-direction: column;
   scrollbar-width: none;
