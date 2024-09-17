@@ -30,7 +30,7 @@
 .wrapper {
   max-width: 300px;
   scrollbar-width: none;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   height: 100vh;
   overflow-y: scroll;
 }
