@@ -139,7 +139,7 @@ nav {
 }
 
 .icon-star {
-  color: var(--clr-dark);
+  color: var(--clr-primary200);
 }
 
 nav .router-link-active {

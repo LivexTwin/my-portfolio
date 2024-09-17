@@ -45,7 +45,7 @@ header {
   margin-left: 1rem;
   display: flex;
   flex-direction: column;
-  margin-bottom: 8rem;
+
   gap: 2rem;
   margin-top: 3rem;
   font-size: var(--size-xs);
@@ -109,13 +109,6 @@ span {
     margin-top: 0 !important;
     max-width: 100%;
     overflow-y: auto;
-  }
-
-  .page-content {
-    margin: 0 auto;
-    padding-bottom: 5rem;
-
-    max-width: 600px;
   }
 
   .page-content #title {

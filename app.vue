@@ -32,6 +32,7 @@
   scrollbar-width: none;
   /* margin-bottom: 2rem; */
   height: 100vh;
+  padding-bottom: 2rem;
   overflow-y: scroll;
 }
 

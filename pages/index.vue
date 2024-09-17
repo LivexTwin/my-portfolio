@@ -102,4 +102,12 @@ img {
     right: 50px;
   }
 }
+
+@media only screen and (max-height: 575.98px) and (orientation: landscape) {
+  h1 {
+   opacity: 0;
+  }
+
+  
+}
 </style>
