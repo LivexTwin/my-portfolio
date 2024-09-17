@@ -41,14 +41,13 @@ header {
 }
 
 .page-content {
-  /* padding: calc(var(--pad) * 2 + 1px) calc(var(--pad) * 2); */
-  padding: 4rem 2rem;
-
+  padding: calc(var(--pad) * 2 + 1px) calc(var(--pad) * 2);
   margin-left: 1rem;
   display: flex;
   flex-direction: column;
   scrollbar-width: none;
   height: 100vh;
+  flex-grow: 1;
   overflow-y: auto;
   gap: 2rem;
   font-size: var(--size-xs);
