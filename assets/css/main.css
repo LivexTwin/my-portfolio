@@ -19,11 +19,11 @@
 .page-content {
   padding: calc(var(--pad) * 2 + 96px) calc(var(--pad) * 2);
   margin-left: 1rem;
-  text-align: left;
+
   scrollbar-width: none;
-  height: 100vh !important;
+  height: 100vh;
+  margin-bottom: 2rem;
   overflow-y: scroll;
-  margin-bottom: 4rem;
   font-size: var(--size-xs);
 }
 

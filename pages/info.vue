@@ -65,15 +65,10 @@
     </div>
     <h3>Who am I?</h3>
     <p>
-      A passionate self-starter with a "finish what you started" mentality. As a
-      determined problem-solver, I won’t stop until every idea I’ve imagined is
-      perfectly realized. As a developer, I value both the look and
-      functionality of a website. My passion for design extends beyond coding—I
-      use Blender to create eye-catching logos and have designed art covers for
-      several artists. I thrive on creating from scratch, blending technical
-      skill with artistic expression. Whether designing a captivating user
-      interface or visualizing a concept in 3D, my commitment to excellence
-      drives me to perfect every aspect of my work.
+      <h3>Who am I?</h3>
+    <p>
+      I’m a passionate self-starter with a "finish what you started" mentality. As a developer, I focus on both the look and functionality of websites, blending technical skill with creativity. My love for design extends beyond code—whether it's crafting a sleek user interface or visualizing concepts in 3D, I’m driven to perfect every detail and bring ideas to life.
+    </p>
     </p>
   </section>
 </template>
