@@ -30,9 +30,6 @@
   max-width: 325px;
 }
 
-.inner-wrapper {
-}
-
 @media (min-width: 768px) {
   .wrapper {
     max-width: 1000px;

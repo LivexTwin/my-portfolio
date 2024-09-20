@@ -63,12 +63,15 @@
         <p>Vue JS</p>
       </div>
     </div>
+
     <h3>Who am I?</h3>
     <p>
-      <h3>Who am I?</h3>
-    <p>
-      I’m a passionate self-starter with a "finish what you started" mentality. As a developer, I focus on both the look and functionality of websites, blending technical skill with creativity. My love for design extends beyond code—whether it's crafting a sleek user interface or visualizing concepts in 3D, I’m driven to perfect every detail and bring ideas to life.
-    </p>
+      I’m a passionate self-starter with a "finish what you started" mentality.
+      As a developer, I focus on both the look and functionality of websites,
+      blending technical skill with creativity. My love for design extends
+      beyond code—whether it's crafting a sleek user interface or visualizing
+      concepts in 3D, I’m driven to perfect every detail and bring ideas to
+      life.
     </p>
   </section>
 </template>
@@ -77,6 +80,7 @@
 svg.icon {
   color: var(--clr-primary200);
 }
+
 .info {
   display: flex;
   flex-direction: column;

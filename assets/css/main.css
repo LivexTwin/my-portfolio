@@ -17,12 +17,12 @@
 }
 
 .page-content {
-  padding: calc(var(--pad) * 2 + 96px) calc(var(--pad) * 2);
+  padding: calc(var(--pad) * 3 + 86px) calc(var(--pad) * 2);
   margin-left: 1rem;
 
   scrollbar-width: none;
   height: 100vh;
-  margin-bottom: 2rem;
+  border: 1px solid red;
   overflow-y: scroll;
   font-size: var(--size-xs);
 }
