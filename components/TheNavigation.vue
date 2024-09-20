@@ -112,15 +112,16 @@ function isActive(path) {
   margin-top: 3px;
 }
 
-nav {
-  padding-inline: var(--pad);
+.navbar {
+  position: fixed;
+  right: calc(var(--pad) * 2);
+  top: calc(var(--pad) * 2);
 }
 
 .nav-links {
   display: flex;
   flex-direction: column-reverse;
   align-items: flex-end;
-  padding: var(--pad);
   gap: 0.5rem;
 }
 

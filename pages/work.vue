@@ -1,6 +1,5 @@
 <template>
   <section class="page-content work">
-    <h1 id="title">Work</h1>
     <div class="work-summary">
       <p>
         To master the basics of html, css, and javascript, I used a fun resource

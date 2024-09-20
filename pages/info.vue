@@ -1,7 +1,5 @@
 <template>
   <section class="page-content info">
-    <h1 id="title">Info</h1>
-
     <p>
       I'm in the early stages of my journey into becoming a full-stack web
       developer, aiming to launch my career as a frontend developer specializing
@@ -67,9 +65,9 @@
     </div>
     <h3>Who am I?</h3>
     <p>
-      I am a passionate individual with a "finish what you started" mentality.
-      As a determined problem-solver, I won’t stop until every idea I’ve
-      imagined is perfectly realized. As a developer, I value both the look and
+      A passionate self-starter with a "finish what you started" mentality. As a
+      determined problem-solver, I won’t stop until every idea I’ve imagined is
+      perfectly realized. As a developer, I value both the look and
       functionality of a website. My passion for design extends beyond coding—I
       use Blender to create eye-catching logos and have designed art covers for
       several artists. I thrive on creating from scratch, blending technical

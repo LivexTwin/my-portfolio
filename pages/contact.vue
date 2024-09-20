@@ -1,6 +1,5 @@
 <template>
   <section class="page-content contact">
-    <h1 id="title">contact</h1>
     <h2>Get in touch</h2>
     <p>
       <strong>Available</strong> to start work immediately. Feel reach to reach

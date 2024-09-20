@@ -18,6 +18,14 @@
   </section>
 </template>
 
+<script setup>
+
+definePageMeta({
+  layout: 'home'
+})
+</script>
+
+
 <style scoped>
 .home {
   font-family: "chakra petch", sans-serif;
@@ -59,8 +67,8 @@ h1 {
 
 .btn-1 {
   position: absolute;
-  bottom: 30px;
-  right: 30px;
+  right: calc(var(--pad) * 2);
+  bottom: calc(var(--pad) * 2);
 }
 
 .btn:hover,

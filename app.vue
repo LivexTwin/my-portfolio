@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div class="page">
     <header>
       <TheNavigation />
@@ -19,18 +19,21 @@
   </footer>
 </template>
 
+<script>
+
+</script>
+
 <style scoped>
-/* .page {
-  height: 100vh;
+.page {
   overflow: hidden;
 
   position: relative;
-} */
+}
 
 .wrapper {
   max-width: 320px;
   scrollbar-width: none;
-  /* margin-bottom: 2rem; */
+  /* position: relative; */
   height: 100vh;
   padding-bottom: 2rem;
   display: flex;
@@ -56,4 +59,10 @@
     max-width: 280px;
   }
 }
-</style>
+</style> -->
+
+<template>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
+</template>
