@@ -16,22 +16,14 @@
   cursor: pointer;
 }
 
-header {
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 9999;
-}
-
 .page-content {
-  padding: calc(var(--pad) * 2 + 1px) calc(var(--pad) * 2);
+  padding: calc(var(--pad) * 2 + 96px) calc(var(--pad) * 2);
   margin-left: 1rem;
-  /* display: flex; */
-  flex-direction: column;
+  text-align: left;
   scrollbar-width: none;
   height: 100vh !important;
   overflow-y: scroll;
-  gap: 2rem;
+  margin-bottom: 4rem;
   font-size: var(--size-xs);
 }
 
