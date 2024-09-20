@@ -1,6 +1,9 @@
 <template>
   <div>
     <Wraps />
+    <aside>
+      <TheSocial />
+    </aside>
     <header>
       <TheNavigation />
     </header>

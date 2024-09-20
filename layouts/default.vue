@@ -28,6 +28,7 @@
 
 .wrapper {
   max-width: 325px;
+  min-height: 100%;
 }
 
 @media (min-width: 768px) {
