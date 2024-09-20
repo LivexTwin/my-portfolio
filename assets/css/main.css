@@ -21,8 +21,8 @@
   margin-left: 1rem;
   max-width: 320px;
   scrollbar-width: none;
-  min-height: 100vh;
-  min-height: 100svh;
+  height: 100vh;
+  height: 100svh;
   overflow-y: scroll;
   font-size: var(--size-xs);
 }

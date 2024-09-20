@@ -33,7 +33,7 @@ definePageMeta({
   max-width: 250px;
   padding: var(--pad);
   margin-left: 2rem;
- height: 90vh;
+height: 80vh;
  display: flex;
  flex-direction: column;
  justify-content: flex-end;
@@ -117,7 +117,7 @@ img {
    opacity: 0;
   }
   
-  
+
   
 }
 </style>
