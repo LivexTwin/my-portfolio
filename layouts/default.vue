@@ -14,7 +14,6 @@
         <NuxtPage />
       </div>
     </main>
-
     <footer>
       <TheFooter />
     </footer>
@@ -25,11 +24,10 @@
 #page {
   overflow: hidden;
   position: relative;
-  height: 100vh;
 }
 
 .wrapper {
-  max-width: 340px;
+  max-width: 325px;
 }
 
 @media (min-width: 768px) {
