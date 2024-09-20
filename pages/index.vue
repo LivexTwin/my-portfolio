@@ -33,7 +33,11 @@ definePageMeta({
   max-width: 250px;
   padding: var(--pad);
   margin-left: 2rem;
-  margin-top: 80%;
+ height: 90vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+
 }
 
 h1 {
@@ -94,6 +98,7 @@ img {
     font-size: var(--size-xl);
     margin-left: 3rem;
     max-width: 800px;
+
   }
 
   .pop {
@@ -104,18 +109,15 @@ img {
     font-size: var(--size-4xl);
   }
 
-  .btn-1 {
-    font-size: var(--size-sm);
-    bottom: 50px;
-    right: 50px;
-  }
+
 }
 
 @media only screen and (max-height: 575.98px) and (orientation: landscape) {
   h1 {
    opacity: 0;
   }
-
+  
+  
   
 }
 </style>

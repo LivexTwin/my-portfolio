@@ -72,10 +72,9 @@ span {
 } */
 
 @media only screen and (max-height: 575.98px) and (orientation: landscape) {
-  .home {
-    margin-top: 0 !important;
-    max-width: 100%;
-    overflow-y: auto;
+  .page-content {
+    max-width: 500px;
+    margin: 0 auto;
   }
 
   .page-content #title {
