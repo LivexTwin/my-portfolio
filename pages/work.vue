@@ -72,7 +72,12 @@
 
       <div class="work-item">
         <div class="project">
-          <NuxtImg src="/images/4.png" alt="project thumbnail" />
+          <NuxtImg
+            src="/images/4.png"
+            alt="project thumbnail"
+            placeholder
+            loading="lazy"
+          />
           <div class="btn-container">
             <button class="btn-1">
               <a
@@ -106,7 +111,12 @@
 
       <div class="work-item">
         <div class="project">
-          <NuxtImg src="/images/1.png" alt="project thumbnail" />
+          <NuxtImg
+            src="/images/1.png"
+            alt="project thumbnail"
+            placeholder
+            loading="lazy"
+          />
           <div class="btn-container">
             <button class="btn-1">
               <a
@@ -139,7 +149,12 @@
 
       <div class="work-item">
         <div class="project">
-          <NuxtImg src="/images/3.png" alt="project thumbnail" />
+          <NuxtImg
+            src="/images/3.png"
+            alt="project thumbnail"
+            placeholder
+            loading="lazy"
+          />
           <div class="btn-container">
             <button class="btn-1">
               <a
