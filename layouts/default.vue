@@ -1,3 +1,4 @@
+<!-- -->
 <template>
   <div id="page">
     <header>
@@ -10,7 +11,6 @@
     <wraps />
     <main class="wrapper">
       <div class="inner-wrapper">
-        <!-- Page content goes here -->
         <NuxtPage class="page-content" />
       </div>
     </main>
@@ -23,7 +23,6 @@
 <style scoped>
 #page {
   overflow: hidden;
-  /* position: relative; */
 }
 
 .wrapper {

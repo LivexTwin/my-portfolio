@@ -17,9 +17,9 @@
 }
 
 .page-content {
-  padding: calc(var(--pad) * 2 + 96px) calc(var(--pad) * 2);
+  padding: calc(var(--pad) * 3 + 86px) calc(var(--pad) * 2);
   margin-left: 1rem;
-  margin-bottom: 1rem;
+
   scrollbar-width: none;
   height: 100vh;
   overflow-y: scroll;
