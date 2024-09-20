@@ -1,5 +1,5 @@
 <template>
-  <section class="page-content work">
+  <section class="work">
     <div class="work-summary">
       <p>
         To master the basics of html, css, and javascript, I used a fun resource
@@ -212,7 +212,7 @@ img {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
-  /* border: 1px solid purple; */
+  margin-top: 2rem;
 }
 
 .work-item {

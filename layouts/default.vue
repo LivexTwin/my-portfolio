@@ -8,10 +8,10 @@
       <TheSocial />
     </aside>
     <wraps />
-    <main>
-      <div class="wrapper">
+    <main class="wrapper">
+      <div class="inner-wrapper">
         <!-- Page content goes here -->
-        <NuxtPage />
+        <NuxtPage class="page-content" />
       </div>
     </main>
     <footer>
@@ -23,11 +23,14 @@
 <style scoped>
 #page {
   overflow: hidden;
-  position: relative;
+  /* position: relative; */
 }
 
 .wrapper {
   max-width: 325px;
+}
+
+.inner-wrapper {
 }
 
 @media (min-width: 768px) {

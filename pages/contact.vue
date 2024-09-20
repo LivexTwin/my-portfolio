@@ -1,5 +1,5 @@
 <template>
-  <section class="page-content contact">
+  <section class="contact">
     <h2>Get in touch</h2>
     <p>
       <strong>Available</strong> to start work immediately. Feel reach to reach
@@ -38,13 +38,10 @@
 </template>
 
 <style scoped>
-#title {
-  bottom: 7%;
-  right: 1.7%;
-}
-
 .contact {
-  font-size: var(--size-xs);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 h2 {

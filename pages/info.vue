@@ -1,5 +1,5 @@
 <template>
-  <section class="page-content info">
+  <section class="info">
     <p>
       I'm in the early stages of my journey into becoming a full-stack web
       developer, aiming to launch my career as a frontend developer specializing
@@ -82,9 +82,11 @@
 svg.icon {
   color: var(--clr-primary200);
 }
-/* .info {
-  font-size: var(--size-xs);
-} */
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
 
 h2 {
   font-family: "chakra petch", sans-serif;

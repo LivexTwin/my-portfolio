@@ -64,7 +64,7 @@ const pageTitle = computed(() => {
   bottom: calc(var(--pad) * 2);
   transform: rotate(270deg);
   font-family: "VT323", sans-serif;
-  font-size: var(--size-2xl);
+  font-size: var(--size-xl);
   color: var(--clr-neutral);
   font-weight: 500;
   width: 22px; /* Set a fixed width */
