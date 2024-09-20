@@ -17,7 +17,7 @@
 }
 
 .page-content {
-  padding: calc(var(--pad) * 3 + 86px) calc(var(--pad) * 2);
+  padding: calc(var(--pad) * 2 + 86px) calc(var(--pad) * 2);
   margin-left: 1rem;
   max-width: 320px;
   scrollbar-width: none;
@@ -81,4 +81,14 @@ span {
   .page-content #title {
     bottom: 8%;
   }
+}
+
+/* page transition */
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
+  opacity: 0;
 }

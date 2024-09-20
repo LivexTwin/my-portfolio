@@ -23,6 +23,8 @@
 definePageMeta({
   layout: 'home'
 })
+
+
 </script>
 
 
@@ -33,7 +35,8 @@ definePageMeta({
   max-width: 250px;
   padding: var(--pad);
   margin-left: 2rem;
-height: 80vh;
+height: 85vh;
+height: 85svh;
  display: flex;
  flex-direction: column;
  justify-content: flex-end;
