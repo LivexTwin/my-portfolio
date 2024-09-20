@@ -22,7 +22,6 @@
 
   scrollbar-width: none;
   height: 100vh;
-  border: 1px solid red;
   overflow-y: scroll;
   font-size: var(--size-xs);
 }
