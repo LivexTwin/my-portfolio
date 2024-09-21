@@ -168,6 +168,10 @@ svg.icon .router-link-active path {
   .nav-links {
     justify-content: end;
   }
+
+  .nav-links a {
+    font-size: var(--size-2xl);
+  }
 }
 
 span {

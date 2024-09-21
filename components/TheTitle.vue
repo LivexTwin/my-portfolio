@@ -81,6 +81,7 @@ const pageTitle = computed(() => {
   #title {
     bottom: 6%;
     right: 3%;
+    font-size: var(--size-2xl);
   }
 }
 </style>

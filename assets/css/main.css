@@ -9,7 +9,7 @@
   text-decoration: none;
   font-family: "vt323", sans-serif;
   letter-spacing: 1.5px;
-  font-size: var(--size-xs);
+  /* font-size: var(--size-xs); */
   color: var(--clr-neutral);
   border: 1px solid var(--clr-neutral);
   padding: 0.5rem;
@@ -42,9 +42,10 @@ span {
 
 @media (min-width: 768px) {
   .page-content {
-    font-size: var(--size-sm);
+    font-size: var(--size-lg);
     gap: 3rem;
-    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
   }
 
   span {
