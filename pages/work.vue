@@ -99,12 +99,14 @@
         </div>
         <div class="description">
           <p>
-            Built with "Nuxt 3", and "Graphql" for querying products. By far the
-            most challenging project I've tried to implement, I learned how
-            shopify's storefront API works, how I can use it to fetch real, test
-            products. Then how to start a development store in order to generate
-            the necessary access keys. Includes a pay button that redirects
-            users to shopify's external checkout.
+            This project was built using Nuxt 3 and GraphQL to query and display
+            products. It’s been one of the most challenging projects I’ve worked
+            on so far, but also the most rewarding. Through this project, I
+            learned how Shopify’s Storefront API operates and how to fetch real
+            (and test) products using it. Additionally, I set up a Shopify
+            development store to generate the necessary API keys and
+            credentials. The project also includes a "Pay" button that redirects
+            users to Shopify's external checkout for seamless transactions.
           </p>
         </div>
       </div>
