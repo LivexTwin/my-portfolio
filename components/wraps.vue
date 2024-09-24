@@ -26,9 +26,9 @@
 .bg {
   background-image: url(../public/images/sprite.jpg);
   background-repeat: no-repeat;
-  /* opacity: 80%; */
-  opacity: 5%;
-  filter: grayscale(96%);
+  opacity: 50%;
+  /* opacity: 5%; */
+  filter: grayscale(100%);
   position: absolute;
   top: 0;
   right: 0;
