@@ -2,57 +2,28 @@
   <section class="work">
     <div class="work-summary">
       <p>
-        To master the basics of html, css, and javascript, I used a fun resource
+        To master the basics of HTML, CSS, and JavaScript, I used a fun resource
         called
         <a target="_blank" href="https://www.frontendmentor.io/"
           >"Frontend Mentor",</a
         >
-        to build real world projects.
+        to build real-world projects.
       </p>
       <span>Here are some examples</span>
     </div>
 
     <div class="work-grid">
-      <!-- <div class="work-item">
-        <div class="project">
-          <img src="/public/images/5.png" alt="project thumbnail" />
-          <div class="description">
-            <p>
-              Highlighting my work with this advanced Shopify development store
-              app built using Nuxt 3, Apollo GraphQL, and Insomnia for API
-              testing. It also utilizes Pinia for state management and the
-              Storefront API. The main challenges included understanding client
-              vs server-side requests and effectively managing a cart.
-            </p>
-            <span>
-              Built with Nuxt 3, Apollo GraphQL, Insomnia, Pinia, and Storefront
-              API</span
-            >
-          </div>
-          <div class="btn-container">
-            <button class="btn-1">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://vlssh0p.com"
-                >view demo</a
-              >
-            </button>
-          </div>
-        </div>
-      </div> -->
       <div class="work-item">
         <div class="project">
           <NuxtImg src="/images/5.png" alt="project thumbnail" />
           <div class="btn-container">
-            <button class="btn-1">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://vlssh0p.com"
-                >view demo</a
-              >
-            </button>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://vlssh0p.com"
+            >
+              <button class="btn-1">view demo</button>
+            </a>
           </div>
         </div>
         <div class="description">
@@ -79,22 +50,20 @@
             loading="lazy"
           />
           <div class="btn-container">
-            <button class="btn-1">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://nuxt-mock-shop.netlify.app/"
-                >view demo</a
-              >
-            </button>
-            <button class="btn-1">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/LivexTwin/nuxt-mock-shop"
-                >GitHub</a
-              >
-            </button>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://nuxt-mock-shop.netlify.app/"
+            >
+              <button class="btn-1">view demo</button>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/LivexTwin/nuxt-mock-shop"
+            >
+              <button class="btn-1">GitHub</button>
+            </a>
           </div>
         </div>
         <div class="description">
@@ -120,22 +89,20 @@
             loading="lazy"
           />
           <div class="btn-container">
-            <button class="btn-1">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://livetwin-ecommerce.netlify.app/"
-                >view demo</a
-              >
-            </button>
-            <button class="btn-1">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/LivexTwin/ecommerce-product-page-main"
-                >GitHub</a
-              >
-            </button>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://livetwin-ecommerce.netlify.app/"
+            >
+              <button class="btn-1">view demo</button>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/LivexTwin/ecommerce-product-page-main"
+            >
+              <button class="btn-1">GitHub</button>
+            </a>
           </div>
         </div>
         <div class="description">
@@ -145,7 +112,7 @@
             challenge called for a working lightbox that displays several
             different product images, a cart menu, and an "add to cart" button.
           </p>
-          <span> Built with HTML, CSS, and Javascript</span>
+          <span> Built with HTML, CSS, and JavaScript</span>
         </div>
       </div>
 
@@ -158,22 +125,20 @@
             loading="lazy"
           />
           <div class="btn-container">
-            <button class="btn-1">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://newsletter-sign-up-lt.netlify.app/"
-                >view demo</a
-              >
-            </button>
-            <button class="btn-1">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/LivexTwin/newsletter-sign-up-with-success-message-main"
-                >GitHub</a
-              >
-            </button>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://newsletter-sign-up-lt.netlify.app/"
+            >
+              <button class="btn-1">view demo</button>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/LivexTwin/newsletter-sign-up-with-success-message-main"
+            >
+              <button class="btn-1">GitHub</button>
+            </a>
           </div>
         </div>
         <div class="description">
@@ -185,7 +150,7 @@
             validate emails and display an error message otherwise. Feel free to
             Subscribe!
           </p>
-          <span> Built with HTML, CSS, and Javascript</span>
+          <span> Built with HTML, CSS, and JavaScript</span>
         </div>
       </div>
       <span class="span-1">
@@ -235,8 +200,6 @@ img {
 .work-item {
   display: flex;
   flex-direction: column;
-
-  /* border: 1px solid green; */
 }
 
 .project {
@@ -247,7 +210,6 @@ img {
   display: flex;
   gap: 0.1rem;
   width: 100%;
-
   justify-content: center;
 }
 
