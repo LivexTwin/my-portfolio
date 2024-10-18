@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="home">
-      <h1>Hi! I'm <span class="name">Anthony :&#41;</span></h1>
+      <h1 class="title">Hi! I'm <span class="name">Anthony :&#41;</span></h1>
       <div class="desc-wrapper">
         <p>
           A junior
@@ -72,7 +72,6 @@ h1 {
 }
 
 .btn-1 {
-  max-width: 100px;
   text-align: center;
 }
 
@@ -90,6 +89,31 @@ a {
 img {
   max-width: 150px;
   margin: 0 auto;
+}
+
+.title {
+  opacity: 0;
+  transform: translateY(-100px);
+  animation: bounceIn 1.2s ease forwards;
+  animation-delay: 0.5s; /* Delay to trigger after page transition */
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  80% {
+    transform: translateY(-5px);
+  }
+  100% {
+    opacity: 1; /* Stay fully visible */
+    transform: translateY(0);
+  }
 }
 
 /* -----MEDIUM MQ----- */

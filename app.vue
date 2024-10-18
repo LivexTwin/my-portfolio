@@ -67,6 +67,19 @@
   </NuxtLayout>
 </template>
 
+<script setup>
+onMounted(() => {
+  const router = useRouter();
+
+  router.afterEach(() => {
+    const pageContent = document.querySelector(".page-content");
+    if (pageContent) {
+      pageContent.scrollTop = 0;
+    }
+  });
+});
+</script>
+
 <style>
 .page-enter-active,
 .page-leave-active {
