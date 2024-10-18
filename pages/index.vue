@@ -34,12 +34,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 3.5rem;
 }
 
 h1 {
   font-family: "Vt323", sans-serif;
   font-weight: 500;
-  padding-bottom: 5rem;
+
   font-size: 1.8rem;
 }
 
@@ -56,14 +57,6 @@ h1 {
   font-size: var(--size-lg);
   background-color: var(--clr-primary100);
   -webkit-text-fill-color: transparent;
-}
-
-.desc {
-  padding-top: 2rem;
-}
-
-.desc-wrapper {
-  padding-bottom: 3rem;
 }
 
 .btn-wrapper {
@@ -123,6 +116,7 @@ img {
     font-size: var(--size-xl);
     margin-left: 3rem;
     max-width: 800px;
+    gap: 7rem;
   }
 
   .pop {
