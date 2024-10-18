@@ -14,6 +14,8 @@
   </div>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+console.log("Using Home Layout");
+</script>
 
 <style scoped></style>

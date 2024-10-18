@@ -1,56 +1,45 @@
 <template>
-  <h1>Hi! I'm <span class="name">Anthony :&#41</span></h1>
+  <div>
+    <h1>Hi! I'm <span class="name">Anthony :&#41;</span></h1>
 
-  <section class="home">
-    <p>
-      A junior
-      <span class="pop">full-stack developer</span> from Atlanta, Ga.
-    </p>
-    <span class="line"></span>
-    <p class="desc">
-      My goal is to work with hundreds of creative individuals and use the
-      latest technologies to build
-      <span class="pop">stunning</span> and
-      <span class="pop">impactful</span> online shops.
-    </p>
-
-    <NuxtLink class="btn-1" to="/info">More info..</NuxtLink>
-  </section>
+    <section class="home">
+      <p>
+        A junior
+        <span class="pop">full-stack developer</span> from Atlanta, Ga.
+      </p>
+      <span class="line"></span>
+      <p class="desc">
+        My goal is to work with hundreds of creative individuals and use the
+        latest technologies to build
+        <span class="pop">stunning</span> and
+        <span class="pop">impactful</span> online shops.
+      </p>
+    </section>
+    <div class="btn-wrapper">
+      <NuxtLink class="btn-1" to="/info">More info..</NuxtLink>
+    </div>
+  </div>
 </template>
 
-<script setup>
-
-definePageMeta({
-  layout: 'home'
-})
-
-
-</script>
-
+<script setup></script>
 
 <style scoped>
 .home {
   font-family: "chakra petch", sans-serif;
   font-weight: 300;
   max-width: 250px;
-  padding: var(--pad);
-  margin-left: 2rem;
-height: 85vh;
-height: 85svh;
- display: flex;
- flex-direction: column;
- justify-content: flex-end;
-
+  margin-top: 10rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 h1 {
   font-family: "Vt323", sans-serif;
   font-weight: 500;
-  position: absolute;
-  top: 10%;
-  max-width: 100px;
+
   font-size: 1.8rem;
-  left: 15%;
 }
 
 .name {
@@ -72,10 +61,14 @@ h1 {
   padding-top: 2rem;
 }
 
+.btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .btn-1 {
-  position: absolute;
-  right: calc(var(--pad) * 2);
-  bottom: calc(var(--pad) * 2);
+  max-width: 100px;
+  text-align: center;
 }
 
 .btn:hover,
@@ -101,7 +94,6 @@ img {
     font-size: var(--size-xl);
     margin-left: 3rem;
     max-width: 800px;
-
   }
 
   .pop {
@@ -111,16 +103,11 @@ img {
   h1 {
     font-size: var(--size-4xl);
   }
-
-
 }
 
 @media only screen and (max-height: 575.98px) and (orientation: landscape) {
   h1 {
-   opacity: 0;
+    opacity: 0;
   }
-  
-
-  
 }
 </style>

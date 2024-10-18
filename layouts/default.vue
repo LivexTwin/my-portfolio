@@ -10,8 +10,8 @@
     </aside>
     <wraps />
     <main class="wrapper">
-      <div class="inner-wrapper">
-        <NuxtPage class="page-content" />
+      <div class="page-content">
+        <slot />
       </div>
     </main>
     <footer>

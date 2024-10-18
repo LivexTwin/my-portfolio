@@ -82,8 +82,14 @@ svg.icon .router-link-active path {
             :to="link.to"
             :class="{ 'router-link-active': isActive(link.to) }"
           >
-            <span v-if="isActive(link.to)" class="icon-star">★</span>
-            <span v-else class="link-text">{{ link.text }}</span>
+            <!-- Use Transition for both the star and text with the same timing -->
+            <Transition name="fade" mode="out-in">
+              <!-- Only one element should exist at a time, hence key helps switch smoothly -->
+              <span v-if="isActive(link.to)" class="icon-star" key="star"
+                >★</span
+              >
+              <span v-else class="link-text" key="text">{{ link.text }}</span>
+            </Transition>
           </NuxtLink>
         </li>
       </ul>
@@ -107,6 +113,16 @@ function isActive(path) {
 </script>
 
 <style scoped>
+/* Fade transition for both star and text */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease-out;
+}
+
+.fade-enter, .fade-leave-to /* .fade-leave-active in Vue 2 */ {
+  opacity: 0;
+}
+
 .logo {
   max-width: 90px;
   margin-top: 3px;
