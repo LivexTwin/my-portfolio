@@ -35,7 +35,8 @@ span {
 .line {
   border-bottom: 1px solid rgba(0, 0, 0, 0.069);
   display: block;
-  padding-top: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* -----MEDIUM MQ----- */

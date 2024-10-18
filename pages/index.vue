@@ -126,6 +126,11 @@ img {
   h1 {
     font-size: var(--size-4xl);
   }
+
+  .line {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 }
 
 @media only screen and (max-height: 575.98px) and (orientation: landscape) {
