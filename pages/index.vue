@@ -63,7 +63,7 @@ h1 {
 }
 
 .desc-wrapper {
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
 }
 
 .btn-wrapper {
