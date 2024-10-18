@@ -1,23 +1,25 @@
 <template>
   <div>
-    <h1>Hi! I'm <span class="name">Anthony :&#41;</span></h1>
-
     <section class="home">
-      <p>
-        A junior
-        <span class="pop">full-stack developer</span> from Atlanta, Ga.
-      </p>
-      <span class="line"></span>
-      <p class="desc">
-        My goal is to work with hundreds of creative individuals and use the
-        latest technologies to build
-        <span class="pop">stunning</span> and
-        <span class="pop">impactful</span> online shops.
-      </p>
+      <h1>Hi! I'm <span class="name">Anthony :&#41;</span></h1>
+      <div class="desc-wrapper">
+        <p>
+          A junior
+          <span class="pop">full-stack developer</span> from Atlanta, Ga.
+        </p>
+        <span class="line"></span>
+        <p class="desc">
+          My goal is to work with hundreds of creative individuals and use the
+          latest technologies to build
+          <span class="pop">stunning</span> and
+          <span class="pop">impactful</span> online shops.
+        </p>
+      </div>
+
+      <div class="btn-wrapper">
+        <NuxtLink class="btn-1" to="/info">More info..</NuxtLink>
+      </div>
     </section>
-    <div class="btn-wrapper">
-      <NuxtLink class="btn-1" to="/info">More info..</NuxtLink>
-    </div>
   </div>
 </template>
 
@@ -28,8 +30,7 @@
   font-family: "chakra petch", sans-serif;
   font-weight: 300;
   max-width: 250px;
-  margin-top: 5rem;
-  padding-bottom: 5rem;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,7 +39,7 @@
 h1 {
   font-family: "Vt323", sans-serif;
   font-weight: 500;
-
+  padding-bottom: 5rem;
   font-size: 1.8rem;
 }
 
@@ -59,6 +60,10 @@ h1 {
 
 .desc {
   padding-top: 2rem;
+}
+
+.desc-wrapper {
+  padding-bottom: 5rem;
 }
 
 .btn-wrapper {
