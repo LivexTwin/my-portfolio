@@ -28,7 +28,7 @@
   font-family: "chakra petch", sans-serif;
   font-weight: 300;
   max-width: 250px;
-  margin-top: 10rem;
+  margin-top: 5rem;
   padding-bottom: 5rem;
   display: flex;
   flex-direction: column;
